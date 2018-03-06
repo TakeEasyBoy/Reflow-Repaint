@@ -49,7 +49,8 @@
 >scrollWidth、scrollHeight、scrollTop、scrollLeft   
 >width、height  
 >getComputedStyle()  
->getBoundingClientRect()  
+>getBoundingClientRect() 
+
 因为队列中可能会有影响到这些属性或方法返回值的操作，即使你希望获取的信息与队列中操作引发的改变无关，浏览器也会强行清空队列，确保你拿到的值是最精确的。
 
 # 如何避免
